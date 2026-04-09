@@ -59,7 +59,7 @@ const ChatAgent = () => {
 
           {/* Header */}
           <div className="bg-blue-600 text-white p-4 flex justify-between">
-            <h3 className="font-semibold">AI Assistant Swatantra</h3>
+            <h3 className="font-semibold">AI Assistant chandan</h3>
             <X className="cursor-pointer" onClick={() => setOpen(false)} />
           </div>
 
