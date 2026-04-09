@@ -72,7 +72,7 @@ const ContactUs = () => {
 
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
-                <FaMapMarkerAlt /> Delhi, India
+                <FaMapMarkerAlt /> New Delhi, India 110037
               </div>
               <div className="flex items-center gap-2">
                 <FaPhoneAlt /> +91 9661034151
