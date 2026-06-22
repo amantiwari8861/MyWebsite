@@ -45,8 +45,8 @@ function Navbar() {
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-white/80 backdrop-blur-md shadow-lg border-b border-slate-200/50 py-2"
-          : "bg-transparent py-4"
+          ? "bg-white/80 backdrop-blur-md shadow-lg border-b border-slate-200/50"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6">
@@ -61,15 +61,7 @@ function Navbar() {
               whileHover={{ scale: 1.02 }}
               className="flex flex-col"
             >
-              <span className="text-2xl font-black text-slate-900 leading-none tracking-tighter">
-                SITE<span className="text-blue-600">FORCE</span>
-              </span>
-              <div className="flex items-center space-x-1">
-                <span className="h-[1px] w-4 bg-blue-600 transition-all group-hover:w-8"></span>
-                <span className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em]">
-                  Consulting
-                </span>
-              </div>
+              <img src="logo.png" alt="" className="" width={"150px"} height={"80px"}/>
             </motion.div>
           </Link>
 
